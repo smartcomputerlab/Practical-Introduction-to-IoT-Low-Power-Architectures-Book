@@ -60,13 +60,13 @@ Note that the HT board in **low_power** stage (deep-sleep) requires only about *
 
 ### ESP32 WiFi LoRa V2 DevKit (HelTec) 
 p align="center">
-  <img src="images/IoT.HT.DevKit.PPK.source.png" width="240" title="accessibility text">
+  <img src="images/V2.IoTDevkit.all.png" width="240" title="accessibility text">
 </p>
 
 
 ### ESP32 WiFi LoRa V4 DevKit (HelTec) 
 p align="center">
-  <img src="images/IoT.HT.DevKit.PPK.source.png" width="240" title="accessibility text">
+  <img src="images/V4.DevKiT.board.png" width="240" title="accessibility text">
 </p>
 
 The above HT DevKits are powered correspondigly by: USB from PC, Power Profiler source, battery source.
