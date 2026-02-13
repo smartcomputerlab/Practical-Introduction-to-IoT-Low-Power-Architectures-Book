@@ -1,7 +1,7 @@
 You can visit (https://www.amazon.fr/dp/B0FLPSRRXT) for more information.
-# The books on Amazon
-Practical Introduction to IoT Architectures
-Practical Introduction to Low Power IoT Architectures
+## The books on Amazon
+- Practical Introduction to IoT Architectures
+- Practical Introduction to Low Power IoT Architectures
 
 # Low-Power IoT
 
