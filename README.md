@@ -51,14 +51,26 @@ The Heltec ESP32 WiFi LoRa V4 is an enhanced low-power IoT platform that builds 
 A key feature of the V4 is its ultra-low deep-sleep current of approximately 15 µA, which enables long battery lifetimes in duty-cycled applications. In addition, this version integrates a solar panel interface, allowing direct connection to energy-harvesting sources and enabling fully autonomous, sustainable IoT nodes.
 
 The complete introduction to HT board and related DevKit and the prepared exercises is provided in the main document IoT.GreenIT.2024 (pdf).
-## IoT DevKits - energy provision
-### HT DevKit (HelTec) 
+## IoT DevKits 
+### ESP32-C3 DevKit (HelTec) 
 Note that the HT board in **low_power** stage (deep-sleep) requires only about **12µA** (at 3.3V).
 <p align="center">
   <img src="images/IoT.HT.DevKit.PC.source.png" width="240" title="hover text">
   <img src="images/IoT.HT.DevKit.PPK.source.png" width="240" title="accessibility text">
   <img src="images/IoT.HT.DevKit.battery.source.png" width="240" title="accessibility text">
 </p>
+
+### ESP32 WiFi LoRa V2 DevKit (HelTec) 
+p align="center">
+  <img src="images/IoT.HT.DevKit.PPK.source.png" width="240" title="accessibility text">
+</p>
+
+
+### ESP32 WiFi LoRa V4 DevKit (HelTec) 
+p align="center">
+  <img src="images/IoT.HT.DevKit.PPK.source.png" width="240" title="accessibility text">
+</p>
+
 The above HT DevKits are powered correspondigly by: USB from PC, Power Profiler source, battery source.
 
 
