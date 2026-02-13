@@ -1,0 +1,9 @@
+from machine import Pin, I2C
+import time
+rst=Pin(21,Pin.OUT); rst.value(0); time.sleep_ms(400); rst.value(1)
+time.sleep_ms(400)
+# Configure I2C
+i2c = I2C(0, scl=Pin(18), sda=Pin(17))  # I2C bus 0 with custom pins
+# Scan for I2C devices
+devices = i2c.scan()
+print("I2C devices found:", devices)
