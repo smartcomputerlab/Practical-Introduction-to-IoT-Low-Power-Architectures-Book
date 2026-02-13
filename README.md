@@ -16,7 +16,7 @@ Energy-aware communication – reducing transmitted data through compression or 
 
 # Low-Power IoT Development Platforms
 
-To experiment with low-power IoT systems in practice, dedicated development platforms based on energy-efficient boards and system-on-chip (SoC) solutions are required. In this work, we provide two IoT development platforms based on RISC-V (ESP32C3) , Extensa LX06, LX07 and ARM architectures, namely the ESP32-C3 and ESP32 and ESP32S3
+To experiment with low-power IoT systems in practice, dedicated development platforms based on energy-efficient boards and system-on-chip (SoC) solutions are required. In this work, we provide two IoT development platforms based on RISC-V (ESP32C3) or Extensa LX06, LX07 architectures, namely the ESP32-C3 and ESP32 and ESP32S3
 
 These IoT DevKits integrate the SoCs with multiple communication interfaces and support autonomous energy sources such as batteries, supercapacitors, and solar cells.
 
