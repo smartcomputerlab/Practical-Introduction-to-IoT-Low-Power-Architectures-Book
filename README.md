@@ -1,25 +1,50 @@
 You can visit (https://www.amazon.fr/dp/B0FLPSRRXT) for more information.
 
+# Low-Power IoT
 
+The Internet of Things (IoT) is undergoing rapid growth in both the number of connected devices and the volume of in-network data. This expansion makes it essential to reduce the resource and energy requirements of all network components. Energy efficiency has therefore become a key design objective to ensure the reliability, scalability, and long-term sustainability of IoT systems.
 
-# Low Power IoT
-The Internet of Things (IoT) encompasses the significant projected expansion of in-network utilization and node count. As a result, it is necessary to lower the resources required to implement all network parts and their energy. **Energy consumption** is becoming state-of-the-art to ensure the reliability of the Internet of Things and the deployment of an intelligent world. The IoT must be **energy efficient** to mitigate the greenhouse impact and carbon dioxide (CO2) emissions from sensors, devices, apps, and services to achieve a sustainable, innovative world.
-In this context we are concerned by the applications related to the use and deployment of **Low and Very Low Power** IoT Architectures.
-These low «power aspects» include the sensing, the processing, and the IoT data transmission operations. They may be attained via:
+To support the deployment of an intelligent and environmentally responsible world, IoT technologies must limit their contribution to greenhouse gas emissions and carbon dioxide (CO₂) output from sensors, devices, applications, and services. For this reason, modern IoT systems must be inherently energy efficient.
 
-    1. The choice of power efficient sensors and sensing modes/cycles
-    2. The selection of Ultra Low Processing units (ULP) often based on RISC-V processors.
-    3. The reduction or “IoT data stream compression” to limit the transmission energy.
+In this context, we focus on the design and deployment of low and very low power IoT architectures. These “low-power aspects” span the entire IoT chain, including sensing, processing, and wireless communication. They can be achieved through:
 
-To work practically with low power aspects of IoT you need actual development kits based on low power IoT boards/SoCs.
-Here, we provide you with two types of IoT boards based on RISC-V and ARM SoCs, namely ESP32C3 and ARM-M0.
-The IoT DevKits integrate these boards and offer a large number of interfaces and autonomous power sources such as batteries, super-capacitors, and solar cells.
+Power-efficient sensing – selecting low-power sensors and optimizing sensing modes and duty cycles
 
-The first IoT DevKit integrates an ESP32C3 (RISC-V) SoC and several wireless links such as WiFi, BT, and LoRa for long range communication.
-The same DevKit integrates an interface to Power Profiler Kit II to work in ammeter or source mode. In ammeter mode we use the integrated battery to analyze the current running from the battery to the board. In source mode , the PPK provides the energy source with the calibrated voltage.
-The ESP32C3 SoC is integrated into IoT board produced by Heltec. To make the naming shorter we call this board in the prepared exercise as **HT** board.
-IoT.CC.boards.energy.sources.png
+Ultra-low-power processing – using energy-efficient microcontrollers, often based on RISC-V architectures
 
+Energy-aware communication – reducing transmitted data through compression or smart data handling to minimize transmission energy
+
+# Low-Power IoT Development Platforms
+
+To experiment with low-power IoT systems in practice, dedicated development platforms based on energy-efficient boards and system-on-chip (SoC) solutions are required. In this work, we provide two IoT development platforms based on RISC-V and ARM architectures, namely the ESP32-C3 and ARM Cortex-M0.
+
+These IoT DevKits integrate the SoCs with multiple communication interfaces and support autonomous energy sources such as batteries, supercapacitors, and solar cells.
+
+## Heltec ESP32-C3 (HT Board)
+
+The first IoT development kit is built around the ESP32-C3, a RISC-V–based SoC that supports several wireless technologies, including Wi-Fi, Bluetooth (BT), and LoRa for long-range communication.
+
+This DevKit also includes an interface to the Power Profiler Kit II (PPK II), which can operate in two modes:
+
+Ammeter mode – the board is powered by its integrated battery while the PPK measures the current drawn by the system.
+
+Source mode – the PPK supplies a calibrated voltage to power the board directly.
+
+The ESP32-C3 SoC is integrated into an IoT board produced by Heltec. For simplicity, this board is referred to in the prepared exercises as the HT board.
+
+Figure: IoT.CC.boards.energy.sources.png
+
+## Heltec ESP32 WiFi LoRa V2 (ESP32 + SX1276)
+
+The Heltec ESP32 WiFi LoRa V2 is a compact IoT development board that combines Wi-Fi, Bluetooth, and LoRa connectivity in a single platform. It integrates an ESP32 SoC, an onboard LoRa transceiver, and a small OLED display for local monitoring and debugging.
+
+This board emphasizes power efficiency through multiple sleep modes, optimized voltage regulation, and low-power peripheral control. It is well suited for battery-powered sensing, long-range telemetry, and edge IoT applications where energy consumption must be carefully managed.
+
+## Heltec ESP32 WiFi LoRa V4 (ESP32S3 + SX1262)
+
+The Heltec ESP32 WiFi LoRa V4 is an enhanced low-power IoT platform that builds on the V2 while significantly improving energy efficiency and autonomy. It supports Wi-Fi, Bluetooth, and LoRa communication, making it ideal for long-range, low-data-rate IoT deployments.
+
+A key feature of the V4 is its ultra-low deep-sleep current of approximately 15 µA, which enables long battery lifetimes in duty-cycled applications. In addition, this version integrates a solar panel interface, allowing direct connection to energy-harvesting sources and enabling fully autonomous, sustainable IoT nodes.
 
 The complete introduction to HT board and related DevKit and the prepared exercises is provided in the main document IoT.GreenIT.2024 (pdf).
 ## IoT DevKits - energy provision
@@ -32,13 +57,5 @@ Note that the HT board in **low_power** stage (deep-sleep) requires only about *
 </p>
 The above HT DevKits are powered correspondigly by: USB from PC, Power Profiler source, battery source.
 
-### CC DevKit (CubeCell)
-The second IoT DevKit is based on ARM-SX1262 SoM (System on Module). It's power consumption in **low_power** stage is about **6µA**.
-The board provides only Long Range communication link via LoRa modem (SX1262).
-Three versions of the CC board are given below. 
-There are several energy source available to run this board in an **autonomous way !**.
-We hope that you can find them **by yourself !**
-<p align="center">
-  <img src="images/IoT.CC.boards.energy.sources.png" width="720" title="hover text">
-</p>
+
 
