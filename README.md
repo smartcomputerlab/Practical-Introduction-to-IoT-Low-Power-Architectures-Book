@@ -1,5 +1,6 @@
 You can visit (https://www.amazon.fr/dp/B0FLPSRRXT) for more information.
-
+# The books:
+https://www.amazon.fr/dp/B0GN5GQF65/ref=sr_1_1?crid=30RV2NKCHZ24K&dib=eyJ2IjoiMSJ9.bEi9D4_HBUnPi5glmqMCah1rwGGWXK7IKsPDCilIfFUkLfK6POYcytwflbSqfxvwV58OpsnsG4Q4neEB3pIS0M-L_cOGVIZOCGVDOl8WSuNpNdjnPOPOXIfsrnlBGFA-WiOwFgxFLsUIXPH-Y8SlXZ15z51Nkj1KparPn9DoDbcB8J0QircfW0lkdeYFp5VqEADhPfpLcFed06gOKeGWnkYHjtTVJwuh8pAzfRuaqeYU3aM0Cs_mVActodmToW5-gWjPoLTDK_3YDh-nSjbBkPyhn9mKc7J7y5i998pDg-0.RjmRoseCwO8l2Wx5B0KkoqBH0iARw8XpTXUdpyRdTik&dib_tag=se&keywords=przemyslaw+bakowski&qid=1771002721&sprefix=%2Caps%2C234&sr=8-1
 # Low-Power IoT
 
 The Internet of Things (IoT) is undergoing rapid growth in both the number of connected devices and the volume of in-network data. This expansion makes it essential to reduce the resource and energy requirements of all network components. Energy efficiency has therefore become a key design objective to ensure the reliability, scalability, and long-term sustainability of IoT systems.
@@ -8,11 +9,12 @@ To support the deployment of an intelligent and environmentally responsible worl
 
 In this context, we focus on the design and deployment of low and very low power IoT architectures. These “low-power aspects” span the entire IoT chain, including sensing, processing, and wireless communication. They can be achieved through:
 
-Power-efficient sensing – selecting low-power sensors and optimizing sensing modes and duty cycles
+- Power-efficient sensing – selecting low-power sensors and optimizing sensing modes and duty cycles
 
-Ultra-low-power processing – using energy-efficient microcontrollers, often based on RISC-V architectures
+- Ultra-low-power processing – using energy-efficient microcontrollers, often based on RISC-V architectures
 
-Energy-aware communication – reducing transmitted data through compression or smart data handling to minimize transmission energy
+- Energy-aware communication – reducing transmitted data through compression or smart data handling to minimize transmission energy
+  
 
 # Low-Power IoT Development Platforms
 
