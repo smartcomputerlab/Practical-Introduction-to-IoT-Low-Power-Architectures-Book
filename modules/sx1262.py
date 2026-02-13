@@ -265,3 +265,24 @@ class SX1262(SX126X):
         if events & SX126X_IRQ_TX_DONE:
             super().startReceive()
         self._callbackFunction(events)
+        
+#         
+#     def rssi(self):
+#         """
+#         Read RSSI (dBm) of last received LoRa packet
+#         Must be called AFTER RX_DONE
+#         """
+# 
+#         # SX1262 GetPacketStatus command (0x14)
+#         self.cs.off()
+#         self.spi.write(b'\x14')
+#         self.spi.write(b'\x00\x00\x00')
+#         status = self.spi.read(3)
+#         self.cs.on()
+# 
+#         # Convert raw values
+#         rssi = -status[0]/2
+#         return rssi
+
+
+        
