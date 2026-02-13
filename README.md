@@ -55,9 +55,7 @@ The complete introduction to HT board and related DevKit and the prepared exerci
 ### ESP32-C3 DevKit (HelTec) 
 Note that the HT board in **low_power** stage (deep-sleep) requires only about **12µA** (at 3.3V).
 <p align="center">
-  <img src="images/IoT.HT.DevKit.PC.source.png" width="240" title="hover text">
   <img src="images/IoT.HT.DevKit.PPK.source.png" width="240" title="accessibility text">
-  <img src="images/IoT.HT.DevKit.battery.source.png" width="240" title="accessibility text">
 </p>
 
 ### ESP32 WiFi LoRa V2 DevKit (HelTec) 
