@@ -59,13 +59,13 @@ Note that the HT board in **low_power** stage (deep-sleep) requires only about *
 </p>
 
 ### ESP32 WiFi LoRa V2 DevKit (HelTec) 
-p align="center">
+<p align="center">
   <img src="images/V2.IoTDevkit.all.png" width="240" title="accessibility text">
 </p>
 
 
 ### ESP32 WiFi LoRa V4 DevKit (HelTec) 
-p align="center">
+<p align="center">
   <img src="images/V4.DevKiT.board.png" width="240" title="accessibility text">
 </p>
 
